@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "23fb93c8baa33578bd745ecf748480e9",
+    "content-hash": "b79b5f01e435b59defa72ea7dc7f5019",
     "packages": [
         {
             "name": "mindplay/provider-interop",
@@ -88,6 +88,41 @@
                 "psr"
             ],
             "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "ultra-lite/container",
+            "version": "6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ultra-lite/container.git",
+                "reference": "67b51eec94a60b5d763dee987b61e08036192aaa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ultra-lite/container/zipball/67b51eec94a60b5d763dee987b61e08036192aaa",
+                "reference": "67b51eec94a60b5d763dee987b61e08036192aaa",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.3",
+                "phpspec/phpspec": "^3.2",
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "UltraLite\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2017-03-13T17:15:27+00:00"
         }
     ],
     "packages-dev": [],

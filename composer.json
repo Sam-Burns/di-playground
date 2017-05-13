@@ -6,7 +6,8 @@
     "require": {
         "php":                       "^7.1",
         "mindplay/provider-interop": "^0.2",
-        "psr/container":             "^1.0"
+        "psr/container":             "^1.0",
+        "ultra-lite/container":      "^6.1"
     },
 
     "repositories": [
