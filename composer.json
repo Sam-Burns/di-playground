@@ -1,0 +1,23 @@
+{
+    "name": "sam-burns/di-playground",
+
+    "license": "MIT",
+
+    "require": {
+        "php":                       "^7.1",
+        "mindplay/provider-interop": "^0.2",
+        "psr/container":             "^1.0"
+    },
+
+    "repositories": [
+        {
+            "type": "vcs", "url": "git@github.com:mindplay-dk/provider-interop.git"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "DiPlayground\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "23fb93c8baa33578bd745ecf748480e9",
+    "packages": [
+        {
+            "name": "mindplay/provider-interop",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mindplay-dk/provider-interop.git",
+                "reference": "e2875b9883a06bd4be0b53492d92969c22493917"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mindplay-dk/provider-interop/zipball/e2875b9883a06bd4be0b53492d92969c22493917",
+                "reference": "e2875b9883a06bd4be0b53492d92969c22493917",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.4",
+                "psr/container": "^1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Provider\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting container-interoperability through integration of service-providers",
+            "support": {
+                "source": "https://github.com/mindplay-dk/provider-interop/tree/0.2.0",
+                "issues": "https://github.com/mindplay-dk/provider-interop/issues"
+            },
+            "time": "2017-04-13T13:23:19+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.1"
+    },
+    "platform-dev": []
+}

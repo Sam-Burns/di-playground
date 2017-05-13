@@ -1,0 +1,15 @@
+language: php
+
+sudo: false
+
+matrix:
+  include:
+    - php: 7.1
+  fast_finish: true
+
+install:
+  - composer self-update
+  - composer update $COMPOSER_FLAGS
+
+script:
+  - echo 'Hello world'
